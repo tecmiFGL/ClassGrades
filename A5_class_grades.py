@@ -86,3 +86,7 @@ for subject in subjects:
 
 class1 = [subjects,students,class_grades]
 print(class1)
+
+print(class1[0])
+for i in len(students):
+    print(class1[1][i],class1[2][i])
